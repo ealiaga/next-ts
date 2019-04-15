@@ -9,6 +9,8 @@
 /cypress/videos
 /cypress/screenshots
 
+__tests__/__snapshots__
+
 # production
 /build
 
