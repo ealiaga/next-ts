@@ -1,10 +1,10 @@
-import * as React from 'react';
-import * as TestRenderer from 'react-test-renderer';
+import React from 'react';
+import TestRenderer from 'react-test-renderer';
 import Index from '../pages/Index';
 
 describe('Index', () => {
   it('should create instance', () => {
-    const component = TestRenderer.create(<Index />); // React.createElement('Index', null, null)
+    const component = TestRenderer.create(<Index />);
     expect(component.toJSON()).toMatchSnapshot();
   });
 });

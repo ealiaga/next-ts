@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "target": "esnext",
-    "jsx": "react",
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
     "sourceMap": false,
     "experimentalDecorators": true,
     "noImplicitUseStrict": true,
@@ -11,9 +12,6 @@
     "lib": [
       "es2017",
       "dom"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
     ]
   },
   "exclude": [
